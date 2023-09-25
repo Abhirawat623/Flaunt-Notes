@@ -1,0 +1,16 @@
+.navbar-heading{
+
+display: flex;
+justify-content: center;
+flex-direction: row;
+justify-content: space-between;
+
+
+}
+.circle{
+    scale: 2;
+    position: fixed;
+    right: 1.4rem;
+    top:1.2rem;
+
+}

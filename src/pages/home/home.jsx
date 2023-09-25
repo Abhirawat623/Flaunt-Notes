@@ -1,7 +1,10 @@
 import './home.css';
-import {Notes} from '../../components/index';
+import {Notes,Navbar} from '../../components/index';
 export const Home =()=>{
-    return(
+    return(<>
+      <Navbar/>
       <Notes/>
+      </>
+
     )
 }

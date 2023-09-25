@@ -1,43 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons+Outlined");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
 :root {
-    --primary-color: #f8faf3;
-    --secondary-color: rgb(16, 53, 131);
-    --text-color: rgb(0, 0, 0);
-    --shadow: rgba(95, 94, 94, 0.705);
-    --accent-color: #165072;
-  }
-.d-flex{
-    display: flex;
+  --primary-color: #f8faf3;
+  --secondary-color: rgb(16, 53, 131);
+  --text-color: rgb(0, 0, 0);
+  --shadow: rgba(95, 94, 94, 0.705);
+  --accent-color: #165072;
 }
 
-.j-space{
-    justify-content: space-between;
+* {
+  padding: 0;
+  margin: 0;
 }
-.j-center{
-    justify-content: center;
-}
-
-.a-center{
-    align-items: center;
+.d-flex {
+  display: flex;
 }
 
-.dir-col{
-    flex-direction: column;
+.j-space {
+  justify-content: space-between;
+}
+.j-center {
+  justify-content: center;
 }
 
-.dir-row{
-    flex-direction: row;
+.a-center {
+  align-items: center;
 }
 
-.gap-s{
-    gap:5px;
-}
-.gap-m{
-    gap:10px;
-}
-.gap-l{
-    gap:1rem;
+.dir-col {
+  flex-direction: column;
 }
 
-.text{
-    color:white;
+.dir-row {
+  flex-direction: row;
+}
+
+.gap-s {
+  gap: 5px;
+}
+.gap-m {
+  gap: 10px;
+}
+.gap-l {
+  gap: 1rem;
+}
+
+.text {
+  color: white;
 }
