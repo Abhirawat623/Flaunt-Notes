@@ -1,0 +1,22 @@
+.notes-container{
+   width: 30%;
+    min-height: 20vh;
+    background-color: var(--accent-color);
+    padding: 7px;
+    border-radius: 5px;
+    border: 3px solid var(--shadow);
+}
+.notes-title-input{
+    border: none;
+    
+}
+.notes-title-input:focus{
+    outline: none;
+}
+.notes-text-container{
+    padding: 10px;
+}
+.notes-text{
+    width: 95%;
+    
+}

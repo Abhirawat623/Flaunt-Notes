@@ -1,0 +1,43 @@
+:root {
+    --primary-color: #f8faf3;
+    --secondary-color: rgb(16, 53, 131);
+    --text-color: rgb(0, 0, 0);
+    --shadow: rgba(95, 94, 94, 0.705);
+    --accent-color: #165072;
+  }
+.d-flex{
+    display: flex;
+}
+
+.j-space{
+    justify-content: space-between;
+}
+.j-center{
+    justify-content: center;
+}
+
+.a-center{
+    align-items: center;
+}
+
+.dir-col{
+    flex-direction: column;
+}
+
+.dir-row{
+    flex-direction: row;
+}
+
+.gap-s{
+    gap:5px;
+}
+.gap-m{
+    gap:10px;
+}
+.gap-l{
+    gap:1rem;
+}
+
+.text{
+    color:white;
+}
