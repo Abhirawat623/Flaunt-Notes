@@ -1,4 +1,5 @@
 import "./navbar.css";
+import {Link} from 'react-router-dom';
 
 export const Navbar = () => {
   return (
@@ -12,7 +13,7 @@ export const Navbar = () => {
         />
       </span>
     
-      <span className="material-symbols-outlined circle">account_circle</span>
+      <Link to='/login'><span className="material-symbols-outlined circle">account_circle</span></Link>
     </div>
   );
 };

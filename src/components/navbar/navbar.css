@@ -8,7 +8,7 @@ justify-content: space-between;
 
 }
 .circle{
-    scale: 2;
+    scale: 1.6;
     position: fixed;
     right: 1.4rem;
     top:1.2rem;
