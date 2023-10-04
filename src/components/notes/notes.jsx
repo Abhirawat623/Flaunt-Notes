@@ -1,11 +1,20 @@
+import { useTodo } from "../context/todoContext";
 import "./notes.css";
 
 export const Notes =()=>{
+           const {todoDispatch, title} = useTodo();
+           const handleTitle = (event)=> {
+                todoDispatch({
+                    type: 'SET_TITLE',
+                    payload: event.target.value
+                })
+           }
+          
     return(
         <div className="notes-container">
             <div className="notes-header d-flex dir-row j-space gap-s text ">
-                <span className="notes-title">Title:
-                <input type='text' className="notes-title-input"/>
+                <span className="notes-title">Title: { console.log(title)}
+                <input type='text' className="notes-title-input" onChange={handleTitle}/>
                 </span>
                 <label htmlFor='input-category'>
                     Category:

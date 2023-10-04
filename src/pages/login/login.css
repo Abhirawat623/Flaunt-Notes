@@ -1,0 +1,13 @@
+.login-container{
+    border:2px solid var(--shadow);
+    width: 100%;
+    height: 50vh;
+    margin: 10rem auto auto auto;
+    
+}
+
+.input-bar{
+    width:20rem;
+    height: 1.4rem;
+    margin-top:10px;
+}
