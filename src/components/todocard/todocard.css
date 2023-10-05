@@ -1,0 +1,15 @@
+.todo-card{
+    display: flex;
+    flex-wrap: wrap;
+     width: 100%;
+     height: fit-content;
+     
+ }
+ .todo-cards{
+     height: 10rem;
+      width: 10rem;
+      background-color: green;
+      color: black;
+      margin: 1rem;
+ }
+ 

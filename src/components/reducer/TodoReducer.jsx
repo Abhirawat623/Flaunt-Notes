@@ -22,7 +22,7 @@ export const toDoReducer = (state, {type, payload})=> {
             }
         case 'TODO_ARRAY' : return {
                 ...state,
-                 todoList: [...state.todoList, payload]
+                 todoList: [payload,...state.todoList]
                 }
         case 'CLEAR_ALL' : return {
             ...state,

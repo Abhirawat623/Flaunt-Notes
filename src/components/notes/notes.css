@@ -1,10 +1,11 @@
 .notes-container{
-   width: 30%;
+    width: 30%;
     min-height: 20vh;
     background-color: var(--accent-color);
     padding: 7px;
     border-radius: 5px;
     border: 3px solid var(--shadow);
+    margin: 3rem 35rem;
 }
 .notes-title-input{
     border: none;
