@@ -6,3 +6,9 @@
     left: 0;
     top: 10rem;
 }
+
+.sidebar-cat-btn{
+    text-align: left;
+    padding: 1rem;
+    border: none;
+}
