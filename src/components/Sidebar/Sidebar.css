@@ -2,13 +2,15 @@
     border: 1px solid blue;
     width: 30%;
     font-size: 2rem;
-    position: fixed;
+    position: absolute;
     left: 0;
-    top: 10rem;
+    top: 8rem;
+
 }
 
 .sidebar-cat-btn{
     text-align: left;
     padding: 1rem;
     border: none;
+    font-size: 1.4rem;
 }
