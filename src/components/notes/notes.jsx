@@ -46,7 +46,12 @@ export const Notes =()=>{
                 priority,
                 task,
               },
+            
             });
+            localStorage.setItem('title',title)
+            localStorage.setItem('category',category)
+            localStorage.setItem('priority',priority)
+            localStorage.setItem('task',task)
           
             todoDispatch({
                 type: 'CLEAR_ALL'
