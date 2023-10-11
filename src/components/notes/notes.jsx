@@ -28,13 +28,7 @@ export const Notes =()=>{
             })
           }
 
-        //   const handleSaveAll =(event)=>{
-        //     event.preventDefault();
-        //     todoDispatch({
-        //         type: 'TODO_Array',
-        //         payload: [...todoList, {category, title, task, priority}]
-        //     })
-        //   }
+       
           const handleSaveAll = (event) => {
             // Dispatch an action to add a new todo to the state
             event.preventDefault();
